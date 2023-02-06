@@ -36,15 +36,16 @@ box-shadow: 8px 8px 16px gray;
 }
 
 .card-title{
-    font-family: 'roboto';
-    font-weight:500px;
-    padding: 1px;
+    padding: 1.5px;
     display:flex;
     align-items: center;
     justify-content: center;
     margin-top: 16px;
 }
 .card-description{
+    font-family: 'Red Hat Display', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-size: 13px;
     color:gray;
     padding:2px;
     margin:10px auto;
