@@ -1,76 +1,93 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@500&display=swap');
-   *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-body{
-    background-color: hsl(225, 100%, 94%);
-    font-family: 'Red Hat Display', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    width:100vw;
-    height: 100vh;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-img{
-    max-width: 100%;
-    height:auto;
-    border-top-right-radius: 16px;
-    border-top-left-radius: 16px;
+img {
+  max-width: 100%;
+  height: auto;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.card{
- background-color:hsl(225, 100%, 98%);
- width:18rem;
- padding-bottom: 2px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-border-radius:16px;
-box-shadow: 8px 8px 16px gray;
-}
-
-.card-title{
-    padding: 1.5px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 16px;
-}
-.card-description{
-    font-family: 'Red Hat Display', sans-serif;
-   font-family: 'Roboto', sans-serif;
-   font-size: 13px;
-    color:gray;
-    padding:2px;
-    margin:10px auto;
-    text-align: center;
-    width:75%;
-    opacity:0.5; 
-}
-.card-button{
-    display:block;
-    width:200px;
-    padding:5px;
-    border-radius:10px;
-    margin:1px;
-    text-transform: capitalize;
-    /* font-size:16px; */
-    /* font-weight:500px; */
-    background-color:hsl(245, 75%, 52%);
-    color:aliceblue;
-    border:2px solid hsl(245, 75%, 52%);
-}
-.card-link{
-    margin-top:1rem;
-    margin-bottom: 1rem;
-    padding:10px;
-    display:flex;
-    justify-content: center;
+.card {
+  background-color: hsl(225, 100%, 98%);
+  width: 20rem;
+  padding-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 16px;
+  box-shadow: 8px 8px 16px gray;
 }
 
+.card-title {
+  padding: 1.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+.card-description {
+  font-family: "Red Hat Display", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  color: gray;
+  padding: 2px;
+  margin: 8px auto;
+  text-align: center;
+  width: 75%;
+  opacity: 0.5;
+}
+.title-container {
+  background-color: hsl(240, 17%, 92%);
+  width: 300px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.plan h6 {
+  color: gray;
+}
+.card-button {
+  display: block;
+  width: 280px;
+  padding: 7px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px;
+  text-transform: capitalize;
+  /* font-size:16px; */
+  /* font-weight:500px; */
+  background-color: hsl(245, 81%, 44%);
+  color: aliceblue;
+  border: 2px solid hsl(245, 75%, 52%);
+}
+.card-link a {
+  margin-bottom: 2px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+  opacity: 0.5;
+}
